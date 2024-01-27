@@ -1,0 +1,19 @@
+{
+    "name": "nkdev/ip-restrictions",
+    "description": "A Magento 2 module to limit access to the admin panel by IP address",
+    "type": "magento2-module",
+    "version": "0.1.0",
+    "license": "OSL-3.0",
+    "require": {
+        "php": "^7.3||^8.1",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Nkdev\\IpRestrictions\\": ""
+        }
+    }
+}
